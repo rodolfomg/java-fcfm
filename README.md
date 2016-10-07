@@ -15,8 +15,8 @@ El programa consiste de 15 semanas, en las cuales se estáran viendo los siguien
 - Semana 7: Ciclos for, while, do while
 - Semana 8: Clases, objetos, métodos y variables de instancia
 - Semana 9: Implementación
-- Semana 10: Constructores
-- Semana 11: Arreglos
+- Semana 10: Arreglos
+- Semana 11: Constructores
 - Semana 12: Herencia
 - Semana 13: Polimorfismo y genéricos
 - Semana 14: Manejo de excepciones
