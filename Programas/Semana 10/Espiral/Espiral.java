@@ -15,18 +15,18 @@ public class Espiral{
         
         int x, y, sentido=-1;
         x = y = (int)n/2;
-        System.out.println(mat[x][y]);
+        System.out.print(mat[y][x]+" ");
         for(i=1; i<=n; i++){
             for(j=1; j<=i; j++){
                 x = x + 1 * sentido;
                 if(x>=0 && x<n && y>=0 && y<n)
-                    System.out.println(mat[y][x]+" ");
+                    System.out.print(mat[y][x]+" ");
             }
             sentido *= -1;
             for(j=1; j<=i; j++){
                 y = y + 1 * sentido;
                 if(x>=0 && x<n && y>=0 && y<n)
-                    System.out.println(mat[y][x]+" ");
+                    System.out.print(mat[y][x]+" ");
             }
         }
 
